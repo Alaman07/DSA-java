@@ -38,7 +38,7 @@ public class KadanesAlgo {
     
     public static void main(String[] args){
         int nums[] = {2,-3,4,-2,5,8};
-        int ans = maxSubArraySum(nums);
+        int ans = kadanes(nums);
 
         System.out.println("Maximum subarray sum : " + ans);
     }
